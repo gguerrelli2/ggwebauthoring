@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	color: darkblue;
+		background: orange;
+	font-size: 120%
+		
+}
+
+div.large {
+	font-size: 180%;
+		border-style: solid;
+	border-color: aqua;
+		border-width: 20px;
+}
+
+body {
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 500px;
+}
+
+body {
+  background-image: url("images/trollfaceimg.png");
+  background-repeat: no-repeat;
+	background-attachment: fixed
+}
+
+
+h1 {
+	font-size: 500%;
+		font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: black
+}
+
+div.facts {
+	border-style: solid;
+	border-width: 35px;
+	border-color: red
+}

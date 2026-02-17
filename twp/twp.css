@@ -10,38 +10,38 @@ background-color: #387D5A;
 	font-weight: bolder;
 }
 	body {
-		background-color: #FFF5EC;
+		background-color: #E4E3D9;
 		margin: 0;
 		padding: 0;
 	}
+
+h3 {
+	color: #E3494C;
+}
 	
 .wrapper {
 	width: 900px;
 	  margin-left: auto;
     margin-right: auto;
 	align-content: center;
-	font-size: 110%;
-}
-
-ol {
-	 margin-left: 150px;
-    margin-right: auto;
-	color: dimgray;
-	font-size: 120%
-
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
 header {
 justify-content: center;
 	align-content: center;
 		text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 115%
 }
 
 a { 
 color:cornflowerblue}
 
 a:hover {
-	color:#387D5A
+	color:mediumspringgreen
 }
 
 a.pagenav-link {
@@ -53,11 +53,12 @@ nav.sitenav a{
 		font-weight: bold;
 		font-size: 120%;
 		text-decoration: none;
-		padding: 4px
+		padding: 4px;
+	display: inline-block;
 }
 
 nav.sitenav a:hover {
-	color:hotpink
+	color: mediumspringgreen;
 }
 
 nav.pagenav a {
@@ -66,12 +67,49 @@ nav.pagenav a {
 
 h2 {
 	color: #387D5A;
-	font-weight: bold
-}.disc {
+	font-weight: bold;
+	font-size: 140%;
 }
-
 .top {
 	align-content: center;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* gallery grid CSS */
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-row-gap: 20px ;
+            justify-items: center;
+            align-items: start;
+            justify-content: space-between;
+        }
+                        
+        .gallery-item {
+            width: 100px; /*should match the width of your images + width of border (if any) */
+            text-align: center;
+        } 
+        
+    /* css for styling the p/caption under the image */       
+        .gallery-item p {
+            margin: .25em 0;
+            line-height: 135%;
+        }
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1;
+}
+.container div {
+  background-color: #f1f1f1;
+  border: 5px solid #387D5A;
+  padding: 10px;
+  font-size: 17px;
+	color: #E3494C;
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;

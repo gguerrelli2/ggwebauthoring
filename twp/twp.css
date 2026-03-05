@@ -62,7 +62,9 @@ nav.sitenav a:hover {
 }
 
 nav.pagenav a {
-	text-decoration: none
+	text-decoration: none;
+	text-align: center;
+	align-content: center;
 }
 
 h2 {
@@ -113,4 +115,17 @@ h2 {
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
+}
+
+.icons {
+	font-size: 200%;
+	align-content: center;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+	font-size: 70%;
+	text-align: center
 }

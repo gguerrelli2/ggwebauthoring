@@ -93,14 +93,13 @@ article {
 
 }
 
-
-
 .container {
             display: grid;
 		 background-color: #AB0002;
-            grid-template-columns: 500px 700px;
+            grid-template-columns: 400px 700px;
             grid-column-gap: 40px;
              justify-items: left;
-            align-items: start;
-            justify-content: space-between;
+			overflow-wrap: break-word;
+	hyphens: auto;
+	
         }

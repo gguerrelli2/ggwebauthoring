@@ -3,7 +3,7 @@
 
 
 nav.sitenav a{
-	color: #96BCDC;
+	color: rgba(255,165,53,1.00);
 		font-weight: bold;
 		font-size: 130%;
 		text-decoration: underline;
@@ -12,12 +12,11 @@ nav.sitenav a{
 }
 
 nav.sitenav a:hover {
-	color: cadetblue;
+	color: black;
 }
 
 header {
 justify-content: center;
-	background-color:whitesmoke;
 	align-content: center;
 		text-align: center;
 	margin-left: auto;
@@ -27,8 +26,10 @@ justify-content: center;
 	
 }
 
+
+
 body {
-	background-color: #AB0002;
+	background-color: #FFF6E7;
 		margin: 20px;
 		padding: 20px;
 	
@@ -37,36 +38,31 @@ body {
 
  .gallery-grid {
             display: grid;
-		 background-color: #AB0002;
-            grid-template-columns: auto auto auto auto auto;
-            grid-row-gap: 1px ;
-             justify-items: center;
-            align-items: start;
-            justify-content: space-between;
+		 background-color: rgba(255,165,53,1.00);
+            grid-template-columns: auto auto auto;
+	 font-color: black;
+	 border: 5px;
         }
                         
-        .gallery-item {
-            width: 160px; /*should match the width of your images + width of border (if any) */
+      	 .gall-item {
+            width: 270px; /*should match the width of your images + width of border (if any) */
             text-align: center;
+			 justift-content: center;
+			 align-content: center;
 }
 			
 .gallery-grid div {
-  background-color: #AB0002;
-  border: 5px solid #AB0002;
-  padding: 5px;
-  font-size: 17px;
-	color: #E3494C;
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;}
+  background-color: rgba(255,165,53,1.00);
+  font-size: 20px;
+	color: navy;
+	text-align: center;}
 
 
 .gallery-grid2 {
             display: grid;
             grid-template-columns: auto auto auto auto auto;
-	 background-color: #AB0002;
+	 background-color: rgba(255,165,53,1.00);
             grid-row-gap: 0px ;
-            justify-items: center;
             align-items: start;
             justify-content: space-between;
         }
@@ -77,8 +73,8 @@ body {
 }
 
 .gallery-grid2 div {
-  background-color: #AB0002;;
-  border: 5px solid #AB0002;
+  background-color: rgba(255,165,53,1.00);;
+  border: 5px solid rgba(255,165,53,1.00);
   padding: 5px;
   font-size: 17px;
 	color: #E3494C;
@@ -95,7 +91,7 @@ article {
 
 .container {
             display: grid;
-		 background-color: #AB0002;
+		 background-color: #FFF6E7;
             grid-template-columns: 400px 700px;
             grid-column-gap: 40px;
              justify-items: left;

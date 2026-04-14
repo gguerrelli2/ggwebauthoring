@@ -2,44 +2,115 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Pictorial</title>
+<title>Visual Research Gallery</title>
+	
+	<!-- Put Overview and Charts in same column (first one) two-column grid. 1fr 2fr -->
+	
+	<!-- Make another div for each gallery element to pair together image and caption --> 
+	
+	
+	<!-- Only use articles for reviews page --> 
+	
 	
 	<link rel="stylesheet" href="reviews.css" type="text/css">
 	
 </head>
 
 <body>
-	<header><h1>Visual Research Gallery</h1>
+
+	
+<header>
+		
+		<a href="index.html" class="site-logo"> <img class="site-logo-image" src="images/entrepreneurcorner.png" width= "400px"> </a>
+
 	
 </header>
 	
 	<nav class="sitenav"> 
     <a href="reviews.html">Reviews</a> 
 	<a href="pictorial.html">Visual Research Gallery</a> 
-		</nav><br>
-	
-	
+	<a href="map.html">Map</a> 
+	<a href="feature.html">Feature</a> 
+	<a href="about.html">About</a> 
+	</nav>
+		
+<h1>Visual Research Gallery</h1>
+		
 	<div class="container">
 		
-		<div class="item"><article><h1>Overview</h1>
+		<div class="sidebar"><h2><span style="color:navy">Overview</span></h2>
 			
 			<p>Why has LEGO shifted so drastically over the years?<br><br>What happened to the commercials where the sets are being played with in an epic scene with cool animations??<br><br>Why does LEGO seem to be more tailored towards adults now???<br><br> Are they actually tailoring their products and stores towards adults?!<br><br> With research along with my own personal experience with LEGO sets of varying ages, I will be answering all of these questions. <br><br>
-LEGO’s original core customer age segment was 2-12 years old. They picked up the adult segment when they realized that there could be a market for those who purchased sets for nostalgia, collecting, or stress-relief. In 2020, they introduced the simplified, more professional-looking block boxes that are used for 18+ age-rated sets. With this, there is now a super clear distinction for both adult and child customers as to what sets they will gravitate towards. <br>Obviously, adults have more money than kids. You would think this means that 18+ LEGO sets make more money. That is what I would infer. I am an entrepreneurship minor at Rutgers University who wants to take a deeper dive into this phenomenon via this website.<br> If you are someone who is interested in conducting venture research like myself, you will find this information captivating. If you are a LEGO super-fan, also like myself, you might also find some interest in this site.</p></article>	</div>
+LEGO’s original core customer age segment was 2-12 years old. They picked up the adult segment when they realized that there could be a market for those who purchased sets for nostalgia, collecting, or stress-relief. In 2020, they introduced the simplified, more professional-looking block boxes that are used for 18+ age-rated sets. With this, there is now a super clear distinction for both adult and child customers as to what sets they will gravitate towards. <br>Obviously, adults have more money than kids. You would think this means that 18+ LEGO sets make more money. That is what I would infer. I am an entrepreneurship minor at Rutgers University who wants to take a deeper dive into this phenomenon via this website.<br> If you are someone who is interested in conducting venture research like myself, you will find this information captivating. If you are a LEGO super-fan, also like myself, you might also find some interest in this site.</p>	
 		
-		<div class="item"><article>
-			<img src="images/yoshi1.jpeg" width="250px"/> <img src="images/yoshi2.jpeg" width="250px"/> <img src="images/yoshi3.jpeg" width="250px"/>
-			<br>Front | Back | Tongue Extended<br><br>
-			<img src="images/box1.jpeg" width="250px"/> <img src="images/box2.jpeg" width="250px"/> <img src="images/box3.jpeg" width="250px"/>
-			<br>18+<br><br>
-			<img src="images/box4.jpeg" width="250px"/> <img src="images/box5.jpeg" width="250px"/> <img src="images/box6.jpeg" width="250px"/>
-			<br>18+ | under 10+ <br><br>
-			<img src="images/store10.jpeg" width="250px"/> <img src="images/store5.jpeg" width="250px"/> <img src="images/displays.jpeg" width="250px"/> <br>LEGO Store NYC Product Gallery | Displays<br><br>
-			<img src="images/store7.jpeg" width="760px"/><br>Main Art Display
-	  </article></div>
 		
-		<div class="item"><article><p>** Graphs for sales numbers, ratings, and pricing compared to age rating of sets (data gathered from popular retailers)<br>
-** Will include sets from before 2017 (old CEO) but not ones pictured
-			</p></article>
+			
+<h2><span style="color:navy">Graphical Data</span></h2>
+			
+			<img src="images/graph1.png" width="400px"/>
+			<img src="images/graph2.png" width="400px"/>
+			<img src="images/graph3.png" width="400px"/>
+		
+		</div>
+		
+		
+		<!-- Use TWP gallery demo -->
+	
+		
+		<div class="gallery-grid">
+			<div class= "gall-item">
+			<img src="images/yoshi1.jpeg" width="250px"/> 
+				<p>Front</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/yoshi2.jpeg" width="250px"/> 
+			<p>Back</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/yoshi3.jpeg" width="250px"/>
+			<p>Tongue Extended</p>
+            </div>
+			<div class= "gall-item">
+			<img src="images/box1.jpeg" width="250px"/>
+			<p>18+ Box Art</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/box2.jpeg" width="250px"/>
+			<p>18+ Box Art</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/box3.jpeg" width="250px"/>
+			<p>18+ Box Art</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/box4.jpeg" width="250px"/>
+			<p>18+ Box Art</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/box5.jpeg" width="250px"/>
+			<p>Under 10+</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/box6.jpeg" width="250px"/>
+			<p>Under 10+</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/store10.jpeg" width="250px"/>
+			<p>LEGO Store NYC Product Gallery</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/store5.jpeg" width="250px"/>
+			<p>Display</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/displays.jpeg" width="250px"/>
+			<p>More Displays</p>
+			</div>
+			<div class= "gall-item">
+			<img src="images/store7.jpeg" width="700px"/>
+			<p>Main Art Display</p>
+			</div>
+	
 	  </div>
 		
 </div>

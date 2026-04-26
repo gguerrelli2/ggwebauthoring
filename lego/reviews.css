@@ -117,3 +117,80 @@ article {
 	hyphens: auto;
 	
         }
+
+
+.worldmap {
+	width: 950px;
+	height: 650px;
+	border: solid #5a5a5a 1px;
+	background: url(images/worldmap.svg) no-repeat;
+	background-size: 950px 650px;
+	padding: 0;
+	margin: 0; /* adjust as needed */
+	position: relative; /* needed for positioning the icons */
+}
+
+.worldmap-item {
+	font-size: 23px;
+	position: absolute;
+	color: black;
+	
+}
+
+#worldmap-item-factory-mex {
+	top: 254px;
+	left: 195px;
+	}
+
+#worldmap-item-factory-usa {
+	top: 226px;
+	left: 252px;
+	}
+
+#worldmap-item-factory-den {
+	top: 166px;
+	left: 473px;
+	}
+
+#worldmap-item-factory-czec {
+	top: 186px;
+	left: 493px;
+	}
+
+#worldmap-item-factory-hung {
+	top: 196px;
+	left: 505px;
+	}
+
+#worldmap-item-factory-chi {
+	top: 255px;
+	left: 760px;
+	}
+	
+#worldmap-item-factory-viet {
+	top: 305px;
+	left: 740px;
+	}
+	
+	
+#worldmap-item-rdc {
+	top: 10px;
+	left: 440px;
+	}
+
+.worldmap-item span {
+      font-size: 10px; 
+      color: navy; 
+      float: right; 
+      background: white; 
+	  width: 200px;
+      padding: 10px; 
+      display: none;
+      }
+      
+    .worldmap-item:hover span {
+      display: inline;
+		font-size: 12px;
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		text-align:left;
+      }

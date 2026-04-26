@@ -2,33 +2,41 @@
 /* CSS Document */
 
 
+
 nav.sitenav a{
-	color: rgba(255,165,53,1.00);
+	color: rgba(255,212,158);
 		font-weight: bold;
 		font-size: 130%;
-		text-decoration: underline;
+		text-decoration: overline;
 		padding: 4px;
-	text-align: center;
-	align-content: center;
-	justify-content: center;
+	
 }
 
 nav.sitenav a:hover {
-	color: black;
+	color: white;
+}
+
+head {
+	padding: 0px;
+	margin: 0px;
 }
 
 header {
-justify-content: center;
-	align-content: center;
-		text-align: center;
-	margin-left: auto;
-    margin-right: auto;
+	background-color: #E66024;
+	width: inherit;
+	margin: 0px;
+	padding: 30px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	justify-content: center;
+	font-size: 120%;
 	
 }
 
 footer {
 	font-size: 80%;
+	background-color: #E66024;
+	padding: 20px;
+	margin: 0px;
 }
 
 h1 {
@@ -44,17 +52,22 @@ h2 {
 }
 
 body {
-	background-color: #FFF6E7;
-		margin: 20px;
-		padding: 20px;
+	background-color: antiquewhite;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding: 0px;
+	margin: 0px;
 	
 }
+	
+.body { 
+	margin: 30px;
+		padding: 30px;
+	}
 
 
  .gallery-grid {
             display: grid;
-		 background-color: rgba(255,165,53,1.00);
+		 background-color: rgba(255,212,158);
             grid-template-columns: auto auto auto;
 	 font-color: black;
 	 border: 5px;
@@ -66,11 +79,11 @@ body {
 			 justift-content: center;
 			 align-content: center;
 			 border:thick;
-			 border-color: rgba(255,165,53,1.00);
+			 border-color: rgba(255,212,158);
 }
 			
 .gallery-grid div {
-  background-color: rgba(255,165,53,1.00);
+  background-color: rgba(255,212,158);
   font-size: 20px;
 	color: navy;
 	text-align: center;}
@@ -79,11 +92,28 @@ body {
 .gallery-grid2 {
             display: grid;
             grid-template-columns: auto auto auto auto auto;
-	 background-color: rgba(255,165,53,1.00);
-            grid-row-gap: 0px ;
+	 background-color: rgba(255,212,158);
+            grid-row-gap: 0px;
             align-items: start;
-            justify-content: space-between;
+	
+        
         }
+
+#one {
+	filter: brightness(60%);
+}
+#two {
+	filter: brightness(60%);
+}
+#three {
+	filter: brightness(60%);
+}
+#four {
+	filter: brightness(60%);
+}
+#five {
+	filter: brightness(60%);
+}
                         
         .gallery-item {
             width: 140px; /*should match the width of your images + width of border (if any) */
@@ -91,14 +121,17 @@ body {
 }
 
 .gallery-grid2 div {
-  background-color: rgba(255,165,53,1.00);;
-  border: 5px solid rgba(255,165,53,1.00);
+  background-color: rgba(255,212,158);
+  border: 5px solid rgba(255,212,158);
   padding: 5px;
   font-size: 17px;
 	color: #E3494C;
 	text-align: center;
 	margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+
+
+}
 
 article {
 	background-color: white;
@@ -117,7 +150,7 @@ article {
 	hyphens: auto;
 	
         }
-
+	
 
 .worldmap {
 	width: 950px;
@@ -126,8 +159,9 @@ article {
 	background: url(images/worldmap.svg) no-repeat;
 	background-size: 950px 650px;
 	padding: 0;
-	margin: 0; /* adjust as needed */
-	position: relative; /* needed for positioning the icons */
+	margin-left: 200px; /* adjust as needed */
+	position: relative; /* needed for positioning the icons */;
+
 }
 
 .worldmap-item {
@@ -194,3 +228,10 @@ article {
 		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 		text-align:left;
       }
+
+.text {
+	text-align: left;
+	justify-content: left;
+	align-content: left;
+
+}

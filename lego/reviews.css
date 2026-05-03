@@ -148,8 +148,10 @@ article {
              justify-items: left;
 			overflow-wrap: break-word;
 	hyphens: auto;
-	
+	padding: 10px;
         }
+
+.aboutitem {}
 	
 
 .worldmap {
@@ -159,13 +161,13 @@ article {
 	background: url(images/worldmap.svg) no-repeat;
 	background-size: 950px 650px;
 	padding: 0;
-	margin-left: 200px; /* adjust as needed */
+	margin: auto;/* adjust as needed */
 	position: relative; /* needed for positioning the icons */;
 
 }
 
 .worldmap-item {
-	font-size: 23px;
+	font-size: 25px;
 	position: absolute;
 	color: black;
 	
@@ -173,44 +175,83 @@ article {
 
 #worldmap-item-factory-mex {
 	top: 254px;
-	left: 195px;
+	left: 175px;
+	color: cornflowerblue;
 	}
 
 #worldmap-item-factory-usa {
 	top: 226px;
 	left: 252px;
+	color: cornflowerblue;
 	}
 
 #worldmap-item-factory-den {
 	top: 166px;
 	left: 473px;
+	color: purple;
 	}
 
+
 #worldmap-item-factory-czec {
-	top: 186px;
+	top: 176px;
 	left: 493px;
+	color: purple;
 	}
 
 #worldmap-item-factory-hung {
-	top: 196px;
-	left: 505px;
+	top: 186px;
+	left: 509px;
+	color: purple;
 	}
 
 #worldmap-item-factory-chi {
 	top: 255px;
 	left: 760px;
+	color: red;
 	}
 	
 #worldmap-item-factory-viet {
-	top: 305px;
+	top: 290px;
 	left: 740px;
+	color: red;
 	}
 	
 	
-#worldmap-item-rdc {
-	top: 10px;
-	left: 440px;
-	}
+#worldmap-item-texrdc {
+		top: 250px;
+	left: 195px;
+	color: cornflowerblue;
+}
+
+#worldmap-item-virrdc {
+		top: 226px;
+	left: 282px;
+	color: purple;
+}
+
+#worldmap-item-belgrdc {
+		top: 186px;
+	left: 463px;
+	color: purple;
+}
+
+#worldmap-item-czecrdc {
+		top: 200px;
+	left: 493px;
+	color: purple;
+}
+
+#worldmap-item-chirdc {
+		top: 230px;
+	left: 750px;
+	color: red;
+}
+
+#worldmap-item-vietrdc {
+		top: 315px;
+	left: 740px;
+	color: red;
+}
 
 .worldmap-item span {
       font-size: 10px; 

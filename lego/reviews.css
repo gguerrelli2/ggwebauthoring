@@ -55,12 +55,12 @@ body {
 	background-color: antiquewhite;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	padding: 0px;
-	margin: 0px;
+	margin: auto;
 	
 }
 	
 .body { 
-	margin: 30px;
+	margins: auto;
 		padding: 30px;
 	}
 
@@ -99,6 +99,28 @@ body {
         
         }
 
+
+.home-grid {
+            display: grid;
+		 background-color: rgba(255,212,158);
+            grid-template-columns: auto auto auto;
+	 font-color: black;
+	 border: 5px;
+	margin: auto;
+        }
+                        
+      	 .home-item {
+            width: 270px; /*should match the width of your images + width of border (if any) */
+            text-align: center;
+			 justift-content: center;
+			 align-content: center;
+			 border:thick;
+			 border-color: rgba(255,212,158);
+			 margin: auto;
+			 
+}
+
+
 #one {
 	filter: brightness(60%);
 }
@@ -113,6 +135,20 @@ body {
 }
 #five {
 	filter: brightness(60%);
+}
+
+.seven div {
+	margin: auto;
+	align-content: center;
+justify-content: center;
+	text-align: center;
+}
+	
+.seven {
+	margin: auto;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
 }
                         
         .gallery-item {

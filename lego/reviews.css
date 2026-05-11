@@ -4,7 +4,7 @@
 
 
 nav.sitenav a{
-	color: rgba(255,212,158);
+	color: aliceblue;
 		font-weight: bold;
 		font-size: 130%;
 		text-decoration: overline;
@@ -22,10 +22,11 @@ head {
 }
 
 header {
-	background-color: #E66024;
+	background-color: cornflowerblue;
+	height: 120px;
 	width: inherit;
-	margin: 0px;
-	padding: 30px;
+	margin: auto;
+	padding: 20px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	justify-content: center;
 	font-size: 120%;
@@ -34,16 +35,16 @@ header {
 
 footer {
 	font-size: 80%;
-	background-color: #E66024;
+	background-color: cornflowerblue;
 	padding: 20px;
 	margin: 0px;
 }
 
 h1 {
 	text-align: center;
-	font-size: 300%;
+	font-size: 350%;
 	font-weight: bold;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 
@@ -52,7 +53,7 @@ h2 {
 }
 
 body {
-	background-color: antiquewhite;
+	background-color: aliceblue;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	padding: 0px;
 	margin: auto;
@@ -61,29 +62,37 @@ body {
 	
 .body { 
 	margins: auto;
-		padding: 30px;
+		padding: 10px;
+	padding-top: 10px;
 	}
+
+.padded { 
+	margins: auto;
+		padding: 200px;
+	padding-top: 10px;
+	}
+
 
 
  .gallery-grid {
             display: grid;
-		 background-color: rgba(255,212,158);
             grid-template-columns: auto auto auto;
 	 font-color: black;
+	 margin-left: 100px;
 	 border: 5px;
         }
                         
       	 .gall-item {
-            width: 270px; /*should match the width of your images + width of border (if any) */
+            width: 230px; /*should match the width of your images + width of border (if any) */
+		
             text-align: center;
 			 justift-content: center;
 			 align-content: center;
 			 border:thick;
-			 border-color: rgba(255,212,158);
+			 border-color: aliceblue;
 }
 			
 .gallery-grid div {
-  background-color: rgba(255,212,158);
   font-size: 20px;
 	color: navy;
 	text-align: center;}
@@ -91,8 +100,7 @@ body {
 
 .gallery-grid2 {
             display: grid;
-            grid-template-columns: auto auto auto auto auto;
-	 background-color: rgba(255,212,158);
+            grid-template-columns: auto auto;
             grid-row-gap: 0px;
             align-items: start;
 	
@@ -102,7 +110,7 @@ body {
 
 .home-grid {
             display: grid;
-		 background-color: rgba(255,212,158);
+		 background-color: aliceblue;
             grid-template-columns: auto auto auto;
 	 font-color: black;
 	 border: 5px;
@@ -115,7 +123,7 @@ body {
 			 justift-content: center;
 			 align-content: center;
 			 border:thick;
-			 border-color: rgba(255,212,158);
+			 border-color: aliceblue;
 			 margin: auto;
 			 
 }
@@ -157,8 +165,8 @@ justify-content: center;
 }
 
 .gallery-grid2 div {
-  background-color: rgba(255,212,158);
-  border: 5px solid rgba(255,212,158);
+  background-color: aliceblue;
+  border: 5px solid aliceblue;
   padding: 5px;
   font-size: 17px;
 	color: #E3494C;
@@ -172,14 +180,16 @@ justify-content: center;
 article {
 	background-color: white;
 	padding: 10px;
-	border: outset thick
+	width: 600px;
+	border: outset thick;
 
 }
 
 .container {
             display: grid;
-		 background-color: #FFF6E7;
-            grid-template-columns: 400px 700px;
+		 background-color: #84B3F5;
+            grid-template-columns: 500px 700px;
+	margin: auto;
             grid-column-gap: 40px;
              justify-items: left;
 			overflow-wrap: break-word;
@@ -187,7 +197,12 @@ article {
 	padding: 10px;
         }
 
-.aboutitem {}
+.aboutitem {
+	
+margin: auto;
+	margin-top: 0px;
+
+}
 	
 
 .worldmap {
@@ -312,3 +327,38 @@ article {
 	align-content: left;
 
 }
+
+ .siteheadergrid {
+            display: grid;
+            grid-template-columns: 200px auto;
+	 font-color: black;
+	 border: 5px;
+        }
+                 
+        .siteheaderitem {
+            text-align: center;
+			margin: auto;
+			
+}
+
+                
+.evencolumn {
+
+width: 650px;
+margin: auto;
+	margin-top: 0px;
+
+}
+
+.reviewgrid {
+            display: grid;
+		 background-color: aliceblue;
+            grid-template-columns: auto auto;
+	margin: auto;
+            grid-column-gap: 40px;
+             justify-items: center;
+			overflow-wrap: break-word;
+	hyphens: auto;
+	padding: 10px;
+        }
+
